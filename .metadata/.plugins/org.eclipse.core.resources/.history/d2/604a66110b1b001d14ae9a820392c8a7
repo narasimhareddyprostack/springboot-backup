@@ -1,0 +1,26 @@
+package com.prostack.jdbc.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+public class ITestDaoImpl implements ITestDao {
+    
+	
+	@Autowired
+    JdbcTemplate jt;
+	
+	@Override
+	public void insertRecords() {
+		// TODO Auto-generated method stub
+		jt.update("");
+	}
+
+	@Override
+	public List selectRecords() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

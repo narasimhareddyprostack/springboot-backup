@@ -1,0 +1,5 @@
+package com.prostack.jdbc.dao;
+
+public interface ITestDao {
+
+}

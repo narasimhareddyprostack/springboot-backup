@@ -1,0 +1,13 @@
+package com.crm.dao;
+
+import com.crm.model.CustomerBean;
+
+public class RegistrationDaoImpl implements IRegistrationDao {
+
+	
+	public boolean saveCustomer(CustomerBean cusomterBean) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

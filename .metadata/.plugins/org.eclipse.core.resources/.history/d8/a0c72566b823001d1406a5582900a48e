@@ -1,0 +1,13 @@
+package com.crm.model;
+
+import javax.validation.constraints.NotEmpty;
+
+public class CustomerBean {
+	
+	@NotEmpty
+	private String firstName;
+	private String email;
+	private String password;
+	private String mobile;
+	
+}

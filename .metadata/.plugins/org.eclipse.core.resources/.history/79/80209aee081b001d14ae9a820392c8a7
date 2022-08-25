@@ -1,0 +1,8 @@
+package com.prostack.jdbc.dao;
+
+public interface ITestDao {
+	public void insertRecords();
+	public List selectRecords();
+	
+
+}

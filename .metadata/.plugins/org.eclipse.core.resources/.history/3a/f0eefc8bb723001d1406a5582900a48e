@@ -1,0 +1,21 @@
+package com.crm.dao;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+
+import com.crm.model.CustomerBean;
+
+public class RegistrationDaoImpl implements IRegistrationDao {
+
+	@Autowired
+	JdbcTemplate jt;
+	
+	public boolean saveCustomer(CustomerBean cusomterBean) {
+		// TODO Auto-generated method stub
+		
+		String command = "insert into User values(?,?,?,?)";
+		jt.update(command, cusomterBean.getFirstName(),cusomterBean.getEmail(),cusomterBean.getPassword(),cusomterBean.getMobile() );
+		return false;
+	}
+
+}

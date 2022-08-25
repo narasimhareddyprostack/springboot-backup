@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=jdbc/C:\/Users\/IstaSoft\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/2.7.2\/spring-boot-2.7.2.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.boot=/=/maven.artifactId=/spring-boot=/=/maven.version=/2.7.2=/=/maven.scope=/compile=/&lt;org.springframework.boot(CommandLineRunner.class[CommandLineRunner" modifiers="1537" timestamp="1660395573075"/>
+    <typeInfo handle="=jdbc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.prostack.jdbc.dao{ITestDao.java[ITestDao" modifiers="513" timestamp="1660455319219"/>
+</typeInfoHistroy>

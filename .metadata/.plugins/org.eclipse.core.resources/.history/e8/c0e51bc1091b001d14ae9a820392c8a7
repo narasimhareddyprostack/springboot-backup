@@ -1,0 +1,19 @@
+package com.prostack.jdbc.dao;
+
+import java.util.List;
+
+public class ITestDaoImpl implements ITestDao {
+
+	@Override
+	public void insertRecords() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public List selectRecords() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

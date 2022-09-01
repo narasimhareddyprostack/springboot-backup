@@ -1,7 +1,0 @@
-package com.crm.model;
-
-public class CustomerBean {
-
-	private String firstName;
-	private 
-}

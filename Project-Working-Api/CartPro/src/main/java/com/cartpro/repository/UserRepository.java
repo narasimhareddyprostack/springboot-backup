@@ -1,12 +1,13 @@
 package com.cartpro.repository;
 
-import java.util.Optional;
-
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.cartpro.model.User;
 
+import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-	 Optional<User> findByUsername(String username);
+	
+	//findBy + fieldName
+    Optional<User> findByUsername(String username);
 }
